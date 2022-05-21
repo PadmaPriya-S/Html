@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<title>HTML TableTag Activity</title>
+<style>
+    table, th, td {
+        border: 2px solid black;
+	text-align : center;
+    }
+    th, td {
+	padding : 10px;
+    }
+    th {
+	background-color: coral;
+    }
+</style>
+</head>
+<body>
+    <br>
+    <h3 align="center">1.Creating a static webpage using table tags of HTML</h3>
+    <br>
+    <br>
+    <table align="center">
+    <caption>Student Interview Selection Status</caption>
+    <tr>
+        <th>Name</th>
+	<th>Age</th>
+	<th>M/F</th>
+	<th>status</th>
+    </tr>
+    <tr>
+	<td>Padma Priya</td>
+	<td>19</td>
+	<td>F</td>
+	<td>Selected</td>
+    </tr>
+    <tr>
+	<td>Bipin Alapati</td>
+	<td>19</td>
+	<td>M</td>
+	<td>Selected</td>
+    </tr>
+    <tr>
+	<td>Aadhi</td>
+	<td>22</td>
+	<td>M</td>
+	<td>Not Selected</td>
+    </tr>
+    <tr>
+	<td>Nadhya Raman</td>
+	<td>17</td>
+	<td>F</td>
+	<td>Selected</td>
+    </tr>
+    <tr>
+	<td>Nitya Somasekhar</td>
+	<td>20</td>
+	<td>F</td>
+	<td>Not Selected</td>
+    </tr>
+    <tr>
+	<td>Jeevan menvy</td>
+	<td>21</td>
+	<td>M</td>
+	<td>Selected</td>
+    </tr>
+    <tr>
+	<td>Mohana Krithi</td>
+	<td>23</td>
+	<td>F</td>
+	<td>Not Selected</td>
+    </tr>
+    </table>
+</body>
+</html>
